@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="landing.css">
+    <title>UMa</title>
+</head>
+
+<body>
+    <header id="fundo">
+        <h1>Universidade da Madeira</h1>
+        <p>EU gosto de mamar nos peitos da cabritinha</p>
+            <a href="#" class="button">Entrar</a>
+    </header>
+    <section class="flexcontainer">
+        <div class="painel">
+            <h3 class="painel_titulo">titulo</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, rem!</p>
+        </div>
+        <div class="painel">
+            <h3 class="painel_titulo">titulo</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, rem!</p>
+        </div>
+        <div class="painel">
+            <h3 class="painel_titulo">titulo</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, rem!</p>
+        </div>
+        <div class="painel">
+            <h3 class="painel_titulo">titulo</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, rem!</p>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        line-height: 1.6;
+        color: black;
+    }
+
+    #fundo {
+        background-image: url('https://th.bing.com/th/id/R.22b07ffa8dafe906da631835357e8de4?rik=w4tHmnYIuKIntw&riu=http%3a%2f%2fmaede2.com.br%2fwp-content%2fuploads%2f2018%2f03%2fmesa-trabalho-organizacao-limpeza-computador-notebook.jpg&ehk=WTtDMeZXGTGvdw8nVmoqjvRffEP2ivNnF%2fl8BK1IZEw%3d&risl=&pid=ImgRaw&r=0');
+        background-size: cover;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #fundo .button {
+        text-decoration: none;
+        color: blueviolet;
+        border: blue 1px solid;
+        padding: 10px 20px;
+        border-radius: 10px;
+        margin-top: 60px;
+    }
+
+    #fundo .button:hover {
+        background-color: white;
+        color: black;
+    }
+
+    .painel {
+        width: 200px;
+        height: 200px;
+        margin: 40px;
+        padding: 40px;
+        box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.5);
+        text-align: justify;
+        overflow: hidden;
+        color: gray;
+    }
+
+    .painel .painel_titulo {
+        color: steelblue;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .flexcontainer {
+        flex-flow: row wrap;
+        height: 97vh;
+        align-items:center;
+        display: flex ;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+</style>
