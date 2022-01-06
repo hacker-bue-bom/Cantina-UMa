@@ -39,7 +39,7 @@ section .container .col-12 {
     height: 75%;
     }
 footer {
-    color: white;
+    color: black;
     }
 footer .container .col-12{
     background-color: maroon;
