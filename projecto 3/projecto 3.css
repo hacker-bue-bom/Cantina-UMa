@@ -1,0 +1,327 @@
+* {
+    padding: 0;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.article {
+    background-image: url(pag1.jpg);
+}
+
+
+.titlelol {
+    font-weight: bold;
+    font-size: 50px;
+    padding: 10mm;
+    color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    font-family:cursive Parkavenue;
+}
+
+.promocoes{
+    color: white;
+    background-color:chocolate;
+    border-radius: 20px;
+    padding: 25px;
+    
+}
+
+#para {
+    color: white;
+    font-size: 30px;
+    padding: 10mm;
+    background-color: sienna;
+}
+
+
+.fds:hover {
+    background-color: white;
+    color: black;
+}
+.top{
+    width: 70%
+}
+
+.fds {
+    padding:5mm;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    background-color:sienna;
+    border-radius: 20px;
+}
+
+.flex-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: fit-content;
+}
+.krl_q_t_fda {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: fit-content;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    padding: 10mm;
+    justify-content: space-between;
+}
+.ihatethis {
+    justify-content: space-between;
+    display: flex;
+}
+
+#threephotos {
+    justify-content: flex-end;
+    padding: 10mm;
+    margin-right: 20mm;
+    height: 300px;
+}
+#sigh3{
+    font-size: 30px;
+    padding-top: 5mm;
+}
+
+
+
+
+.art3{
+    width: 30%;
+    font-size: 50px;
+}
+.art4{
+    width: 60%;
+}
+
+.vende {
+    width: 100%;
+    display: block;
+  }
+  
+  .art4::after {
+      content: ' ';
+      display: table;
+      clear: both;
+    }
+  
+    .art4__tra--top {
+        float: left;
+        width: 66%;
+        margin-right: -100%;
+        position: relative;
+        z-index: 1;
+    }
+  
+    .art4__tra--bottom {
+        float: right;
+        width: 75%;
+    }
+  
+  @supports (display: grid) {
+    .art4 {
+      display: grid;
+      position: relative; 
+      grid-template-columns: repeat(12, 1fr);
+    }
+  
+    .art4__tra--bottom {
+      grid-column: 4 / -1;
+      grid-row: 1;
+      width: 100%;
+    }
+  
+    .art4__tra--top {
+      grid-row: 1;
+      grid-column: 1 / span 8;
+      width: 100%;
+    }
+  }
+
+
+
+
+  #es{
+      font-size: 30px;
+      font-style: bold;
+      font-style: oblique;
+  }
+
+
+
+
+.titlepag2{
+    font-weight: bold;
+    font-size: 100px;
+    padding: 10mm;
+    color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    font-family:cursive Parkavenue;
+    text-align: center;
+    justify-content: center;
+    animation-name: bla;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes bla{
+    0%   {background-color:maroon; left:0px; top:0px;}
+  50%  {background-color:darkolivegreen; left:200px; top:200px;}
+  100% {background-color:maroon; left:0px; top:0px;}
+}
+.pag2{
+    justify-self: center;
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+.article2 {
+    background-color: sienna;
+    display: flex;
+    justify-content: space-evenly;
+}
+.art2{
+    width: 25%;
+    font-family:cursive;
+    font-size: 40px;
+    color: maroon;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: darkolivegreen;
+    font-family:cursive Parkavenue;
+    padding-bottom: 10mm;
+}
+.items{
+    padding-top: 10mm;
+}
+.subitems {
+    font-size: 25px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: darkolivegreen;
+    font-family:cursive Parkavenue;
+}
+
+#vomit {
+    width: 230px;
+	height: 320px;
+	border-radius: 50%;
+    padding-top: 10mm;
+}
+
+
+
+
+.divy2 {
+    font-size: 65px;
+    width: 700px;
+}
+  
+.figurascomentarios {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+.comentarios {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    padding: 30px;
+}
+  
+.c_comen {
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    justify-content: space-between;
+}
+
+
+
+.subitems2 {
+    font-size: 31px;
+    color: maroon;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: darkolivegreen;
+    font-family:cursive Parkavenue;
+}
+#vegy{
+    width: 300px;
+    padding: 10mm;
+}
+.art5{
+    width: 200px;
+}
+.art5_1{
+    padding: 8mm;
+}
+.art5_1 > * {
+    padding: 5mm;
+}
+.art5_2 {
+    font-size: 40px;
+    height: 200px;
+    position: relative;
+    border: 3px solid darkolivegreen; 
+}
+.art5_2:after {
+    content: "(Preço sem desconto)"; 
+    font-size: 50%;
+    opacity: 0.2;
+}
+#pre{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+}
+
+.duascoisas{
+    display: flex;
+    justify-content: space-evenly;
+}
+#es{
+    justify-self: row;
+    padding: 10mm;
+    font-weight: bold ;
+}
+.article3 {
+    background-color: sienna;
+}
+
+
+.rodape {
+    border-top: 1px solid #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 3%;
+}
+.divisoesrodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.miniicons {
+    margin-top: 10%;
+}
+
+.espacamentotexto {
+    margin-top: 3%;
+}
