@@ -1,0 +1,551 @@
+    body {
+        font-family:sans-serif;
+        padding: 0%;
+        margin: 0%;
+    }
+
+    .pt1{
+        font-size: 27px;
+    }
+
+    .article {
+        background-color: burlywood;
+    }
+
+    .adbar {
+        flex-direction: row;
+        padding: 10mm;
+        align-self: center;
+        display: flex;
+        justify-content: center;
+        filter: grayscale(100%);
+    }
+
+    .adbar > * {
+        width: 4cm;
+        color: grey;
+        padding: 10mm;
+    }
+
+    .title {
+        font-weight: bold;
+        font-size: 65px;
+        padding: 10mm;
+    }
+
+    #promocoes{
+        color: white;
+        background-color:chocolate;
+        border-radius: 20px;
+        padding: 25px;
+    }
+
+    #para {
+        font-size: 30px;
+        padding: 10mm;
+    }
+
+    .buttons {
+        display: flex;
+        padding: 10mm;
+        font-size: 26px;
+    }
+
+    .buttons > *{
+        padding: 5mm;
+        text-decoration: none;
+    }
+
+    #button {
+        background-color: chocolate;
+        border-radius: 20px;
+        color: white;
+    }
+
+    #button2 {
+        background-color: white;
+        color: black;
+        border-radius: 20px;
+        margin-left: 0.7cm;
+    }
+
+    #button:hover {
+        background-color: white;
+        color: black;
+    }
+
+    .fds {
+        padding:15mm;
+        font-size: 20px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .flex-container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: fit-content;
+    }
+
+    .navbar {
+        width: 100%;
+        display: flex;
+        padding: 10mm;
+        justify-content: space-between;
+    }
+
+    #threephotos {
+        width: 485px;
+        height: 485px;
+        justify-content: flex-end;
+        padding: 10mm;
+        margin-right: 20mm;
+    }
+
+    .recommend {
+        font-size: 1.3rem;
+        color: var(--color-grey-dark-3);
+        display: flex;
+        align-items: center;
+        padding: 10mm;
+    }
+
+    .recommend_friends {
+        margin-right: 1.5cm;
+    }
+
+    .photo {
+        box-sizing: content-box;
+        height: 4rem;
+        width: 4rem;
+        border-radius: 50%;
+        border: 3px solid white;
+        margin-right: -2rem;
+    }
+
+    .apply_padd{
+        margin: 20mm;
+        margin-top: 0%;
+    }
+
+    #sigh{
+        color: chocolate;
+        font-size: 20px;
+        padding: 10mm;
+        padding-bottom: 0;
+        padding-left: 0em;
+        margin-bottom: 0;
+    }
+
+    #sigh2{
+        padding: 10mm;
+        padding-top: 5mm;
+        padding-left: 0%;
+        font-size: 60px;
+        font-weight: bold;
+    }    
+
+    .mid_container {
+        display: grid;
+        grid-template-rows: repeat(3,auto);
+        grid-template-columns: repeat(2,auto);
+        grid-row-gap: 5mm;
+        grid-column-gap: 10mm;
+        justify-content: center;
+    }
+
+    .m_photo{
+        justify-self: center;
+        padding-top: 10%;
+        height: 600px;
+    }
+
+    .m_p{
+        font-weight: bold;
+        opacity: 0.2;
+        font-size: 95px;
+        margin-bottom: 2mm;
+        padding-top: 10%;
+    }
+
+    .m_p_title{
+        margin-top: 2mm;
+        font-weight: bold;
+        font-size: 50px;
+    }
+
+    .m_p_text{
+        font-size: 27px;
+    }
+
+    #_sigh{
+        color: chocolate;
+        font-size: 20px;
+        text-align: center;
+        margin: 0;
+    }
+
+    #_sigh2{
+        font-size: 60px;
+        font-weight: bold;
+        text-align: center;
+        margin: 10mm;
+    }    
+
+    .columns{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .column {
+        width: 29%;
+        height: 180mm;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    }
+    
+    .column > *{
+        margin: 5%;
+    }
+      
+    .c_img{
+        width: 100%;
+        margin: 0%;
+        overflow: hidden;
+    }
+
+    #vegetariana{
+        background-color:limegreen;
+        border-radius: 2mm;
+        padding: 5px;
+        display: inline;
+    }
+
+    #Gyozas{
+        font-size: 50px;
+        margin-top: 31px;
+    }
+    #salada{
+        margin-top: 0%;
+        font-size: 50px;
+    }
+
+    #vegan{
+        background-color:olivedrab ;
+        margin-right: 2mm;
+        border-radius: 2mm;
+        padding: 5px;
+    }
+
+    #paleo{
+        background-color:darkorange;
+        border-radius: 2mm;
+        padding: 5px;
+    }
+    
+    #jorge_is_gay {
+        flex-direction: row;
+        display: flex;
+        margin: 0%;
+        margin-left: 5%;
+    }
+
+    #a_t{
+        color: chocolate;
+        font-size: 20px;
+        padding: 10mm;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    .pt2 * {
+        margin: 0%;
+        padding: 0%;
+    }
+    .pt2 {
+        border-top: 10px;
+        font-family: sans-serif;
+        position: relative;
+        font-size: none;
+    }
+    
+    #text {
+        padding-top: 1%;
+        font-size: 60px;
+    }
+      
+    .sighh {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+    .um {
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        padding-top: 4%;
+    }
+    
+    .divy {
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+      
+    .article2 {
+        padding: 30px;
+        display: flex;
+        flex-direction: row;
+        background-color: burlywood;
+    }
+      
+      
+    .divy2 {
+        font-size: 65px;
+        width: 700px;
+    }
+      
+    .figurascomentarios {
+        -webkit-box-sizing: content-box;
+        box-sizing: content-box;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        border: 3px solid #fff;
+    }
+    .comentarios {
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        padding: 30px;
+    }
+      
+    .c_comen {
+        display: flex;
+        flex-direction: row;
+        width: 700px;
+        justify-content: space-between;
+    }
+      
+    .precario {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 500px;
+        margin-top: 4%;
+    }
+    .dudes {
+        width: 150px;
+        height: 150px;
+    }
+      
+    .divy3 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+    }
+    .caloiros {
+        display: flex;
+        flex-direction: column;
+        border-radius: 5%;
+        text-align: center;
+        margin: 2%;
+        width: 30%;
+        height: 400px;
+        justify-content: space-evenly;
+        padding-top: 3%;
+        padding-block-end: 3%;
+        outline-color: burlywood;
+        outline-width: 2px;
+        outline-style: solid;
+    }
+      
+    .veterano {
+        display: flex;
+        flex-direction: column;
+        padding-top: 3%;
+        border-radius: 5%;
+        margin-top: 10px;
+        text-align: center;
+        margin: 2%;
+        width: 30%;
+        height: 400px;
+        justify-content: space-evenly;
+        background-color: burlywood;
+        padding-block-end: 3%;
+    }
+      
+    .tira {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+      
+    .c_tira {
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        padding: 30px;
+    }
+      
+    .espacamento {
+        margin: 3%;
+    }
+    
+    .spac {
+        margin-right: 10px;
+    }
+      
+    .espacamentotexto {
+        margin-top: 3%;
+    }
+      
+    .box {
+        margin: 30px;
+        align-items: 100%;
+        display: flex;
+        flex-direction: row;
+        background-color: chocolate;
+        height: 400px;
+        justify-content: space-between;
+    }
+      
+    #promo{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        text-align: start;
+        padding: 2%;
+    }
+    #titulobox {
+        font-size: xx-large;
+    }
+    
+    .imagembox {
+        height: 100%;
+        justify-content: left;
+    }
+
+    .formulario {
+        display: flex;
+        flex-direction: row;
+        margin: 5%;
+        justify-content: space-between;
+    }
+      
+    .butaosubs {
+        margin-bottom: 40px;
+        width: 150px;
+        height: 20px;
+        color: white;
+        background-color:brown;
+        border-radius: 20px;
+        padding: 25px;
+    }
+      
+    .rodape {
+        border-top: 1px solid #000000;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 3%;
+    }
+    .divisoesrodape {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+      
+    .miniicons {
+        margin-top: 10%;
+    }
+    
+    .estiloletra {
+        color: rgb(255, 123, 0);
+    }
+      
+    .but_cal {
+        height: 30px;
+        width: 150px;
+        font-size: 100%;
+        border: none;
+        background-color: rgb(255, 123, 0);
+        color: white;
+    }
+      
+    .cal_but {
+        display: flex;
+        justify-content: center;
+        padding-top: 3%;
+    }
+      
+    .mon {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: center;
+    }
+      
+    .valor {
+        font-size: 69px;
+    }
+      
+    .money {
+        font-size: 20px;
+    }
+      
+    .listagem {
+        display: flex;
+        flex-direction: column;
+        margin-top: 3%;
+    }
+    .divid {
+        flex-direction: row;
+        display: flex;
+        justify-content: center;
+        padding-top: 5%;
+    }
+      
+    #sigh3{
+        color: chocolate;
+        font-size: 20px;
+        padding: 10mm;
+        padding-bottom: 0;
+        padding-left: 0em;
+        margin-bottom: 0;
+    }
+    #sigh4{
+        color: chocolate;
+        font-size: 20px;
+        padding: 10mm;
+        padding-bottom: 0;
+        padding-left: 0em;
+        margin-bottom: 0;
+    }
+    
+      
+    .opcoes {
+        display: flex;
+        padding: 5%;
+        font-size: x-large;
+    }
+      
+    #icon {
+        color: rgb(255, 123, 0);
+    }
+      
+    .boxfim {
+        padding: 3px;
+        color: #000000;
+        text-align: center;
+        border-radius: 10px;
+        border: none;
+    }
